@@ -32,7 +32,7 @@
 
   <script>
     function handleTickInit(tick) {
-      var counter = Tick.count.down('2020-06-01T00:00:00+08:00');
+      var counter = Tick.count.down('2020-06-01T23:59:59+08:00');
 
       counter.onupdate = function (value) {
         tick.value = value;
